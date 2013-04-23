@@ -1,0 +1,7 @@
+BoldAsFont=no
+Transparency=medium
+CursorType=block
+Font=Lucida Console
+FontHeight=10
+OpaqueWhenFocused=yes
+Term=xterm
