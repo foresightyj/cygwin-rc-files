@@ -4,7 +4,6 @@ alias rmswp='rm .*.swp'
 alias gitpushall='git push -u --all origin'
 
 
-
 #copied from some guy's
 # some more ls aliases
 alias ll='ls -alh'

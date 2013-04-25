@@ -17,10 +17,10 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :map <leader>q
 :h python-mode
-:wq
 :map ctrl-o
 :set filetype=python
 :set filetype python
@@ -75,19 +75,19 @@ $
 "2	LINE	0
 	
 "3	LINE	0
-	    print "Sending complete!"
-"4	LINE	0
-	finally:
-"5	LINE	0
 	
+"4	LINE	0
+	    print "Sending complete!"
+"5	LINE	0
+	finally:
 "6	LINE	0
-	nnoremap <leader>O O<esc>j
+	
 "7	LINE	0
-	nnoremap <leader>o o<esc>k
+	nnoremap <leader>O O<esc>j
 "8	LINE	0
-	    time.sleep(2)
+	nnoremap <leader>o o<esc>k
 "9	LINE	0
-	    dd 
+	    time.sleep(2)
 "a	CHAR	0
 	ll
 "j	CHAR	0
@@ -96,18 +96,20 @@ $
 	o
 
 # File marks:
-'0  54  0  /Apps/Blade/pyBlade/backdoorclient.py
-'1  185  35  ~/.vim/bundle/python-mode/doc/pymode.txt
-'2  1  0  /Apps/Blade/pyBlade/backdoorclient.py
-'3  38  0  /Apps/Blade/pyBlade/backdoorclient.py
-'4  78  0  ~/.vimrc
-'5  18  1  /Apps/Blade/pyBlade/backdoorclient.py
-'6  3  22  ~/.bashrc
-'7  90  0  ~/.vimrc
-'8  68  40  /Apps/Blade/battery_service.c
-'9  73  0  ~/.vimrc
+'0  11  0  ~/.bashrc
+'1  54  0  /Apps/Blade/pyBlade/backdoorclient.py
+'2  185  35  ~/.vim/bundle/python-mode/doc/pymode.txt
+'3  1  0  /Apps/Blade/pyBlade/backdoorclient.py
+'4  38  0  /Apps/Blade/pyBlade/backdoorclient.py
+'5  78  0  ~/.vimrc
+'6  18  1  /Apps/Blade/pyBlade/backdoorclient.py
+'7  3  22  ~/.bashrc
+'8  90  0  ~/.vimrc
+'9  68  40  /Apps/Blade/battery_service.c
 
 # Jumplist (newest first):
+-'  11  0  ~/.bashrc
+-'  3  22  ~/.bashrc
 -'  54  0  /Apps/Blade/pyBlade/backdoorclient.py
 -'  53  0  /Apps/Blade/pyBlade/backdoorclient.py
 -'  341  14  ~/.vim/bundle/python-mode/doc/pymode.txt
@@ -129,8 +131,7 @@ $
 -'  78  0  ~/.vimrc
 -'  49  49  /Apps/Blade/pyBlade/backdoorclient.py
 -'  18  1  /Apps/Blade/pyBlade/backdoorclient.py
--'  3  22  ~/.bashrc
--'  18  22  ~/.bashrc
+-'  17  22  ~/.bashrc
 -'  45  0  /Apps/Blade/pyBlade/backdoorclient.py
 -'  90  0  ~/.vimrc
 -'  95  0  ~/.vimrc
@@ -201,12 +202,53 @@ $
 -'  7  11  /Apps/Blade/NERD_tree_1
 -'  64  2  /Apps/Blade/NERD_tree_1
 -'  1  0  /Apps/Blade/NERD_tree_1
--'  3  22  ~/.bashrc
--'  18  22  ~/.bashrc
 -'  68  40  /Apps/Blade/battery_service.c
 -'  1  0  /Apps/Blade/-MiniBufExplorer-
+-'  54  0  /Apps/Blade/pyBlade/backdoorclient.py
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	"	11	0
+	^	3	23
+	.	6	0
+	+	221	9
+	+	122	0
+	+	123	0
+	+	124	0
+	+	122	20
+	+	221	0
+	+	221	0
+	+	221	0
+	+	217	13
+	+	218	23
+	+	122	0
+	+	219	17
+	+	221	0
+	+	216	0
+	+	221	0
+	+	4	43
+	+	1	15
+	+	7	22
+	+	15	22
+	+	11	0
+	+	13	0
+	+	15	0
+	+	7	23
+	+	11	0
+	+	13	0
+	+	15	0
+	+	12	40
+	+	14	87
+	+	14	85
+	+	12	37
+	+	15	0
+	+	19	0
+	+	17	12
+	+	1	13
+	+	17	22
+	+	3	22
+	+	6	0
 
 > /Apps/Blade/pyBlade/backdoorclient.py
 	"	54	0
@@ -419,47 +461,6 @@ $
 
 > /usr/share/vim/vim73/doc/fold.txt
 	"	353	40
-
-> ~/.bashrc
-	"	3	22
-	^	3	23
-	.	3	22
-	+	222	9
-	+	123	0
-	+	124	0
-	+	125	0
-	+	123	20
-	+	222	0
-	+	222	0
-	+	222	0
-	+	218	13
-	+	219	23
-	+	123	0
-	+	220	17
-	+	222	0
-	+	217	0
-	+	222	0
-	+	4	43
-	+	1	15
-	+	8	22
-	+	16	22
-	+	12	0
-	+	14	0
-	+	16	0
-	+	8	23
-	+	12	0
-	+	14	0
-	+	16	0
-	+	13	40
-	+	15	87
-	+	15	85
-	+	13	37
-	+	16	0
-	+	20	0
-	+	18	12
-	+	1	13
-	+	18	22
-	+	3	22
 
 > /Apps/Blade/battery_service.c
 	"	68	40
