@@ -73,6 +73,7 @@ noremap <Right> :bn<cr>
 noremap <Left> :bp<cr>
 
 noremap <leader>d :bd<cr>
+noremap <leader>q :q<cr>
 noremap <leader>w :w<cr>
 
 " make tabs more obvious

@@ -1,5 +1,7 @@
 [a-zA-z]*[a-zA-z]
 *~
 .viminfo
+.bash_history
+.lesshst
 
 

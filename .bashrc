@@ -1,7 +1,9 @@
 alias vi='vim'
 alias rmtemp='rm *~'
-alias rmswp='rm .*.swp'
+alias rmswp='rm -f .*.swp .*.swo'
 alias gitpushall='git push -u --all origin'
+
+HISTFILESIZE=5000
 
 
 #copied from some guy's
