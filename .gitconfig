@@ -1,0 +1,8 @@
+[user]
+	name = foresightyj
+	email = imyuanjian@gmail.com
+[color]
+	diff = true 
+	ui = true
+[core]
+	editor = vi

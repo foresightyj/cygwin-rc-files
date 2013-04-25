@@ -1,500 +1,500 @@
-ls
-vi testpdb.py
-ls
-cd /Apps/Blade
-ls
-astyle
-ls
-ls
-cd ~/.vim
-ls
-ls
-ls -al
-ls
-mkdir -p bundle
-cd bundle/
-ls
-git clone git://github.com/klen/python-mode.git
-ls
-ls -al
-ls
-curl
-man curl
-ls
-cd ..
-mkdir autoload
-ls
-mv /Downloads/pathogen.vim.txt .
-ls
-mv pathogen.vim.txt autoload/
-ls
-cd autoload/
-ls
-mv pathogen.vim.txt pathogen.vim
-ls
-vi ~/.vimrc
-ls
-exit
-vim .vimrc
-vim .vimrc
-exit
-ls
-vi testpdb.py
-ls
-vi ~/.vimrc
-vi testpdb.py
-vi testpdb.py
-vim --version
-hg
-ls
-vi test.c 
-cat .vimrc
-ls
-ssh -p 2222 foresightyj@localhost
-ls
-hg clone https://vim.googlecode.com/hg/ vim
-ls
-cd vim/
-ls
-cd ..
-ls
-cd vim/
-ls
-cd src
-ls
-./configure --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-gui=no --without-x --enable-multibyte --prefix=/usr
-make && make install
-./configure --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-gui=no --without-x --enable-multibyte --prefix=/usr
-cd vim/src
-./configure --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-gui=no --without-x --enable-multibyte --prefix=/usr
-cd vim/src
-ls
-./configure --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-gui=no --without-x --enable-multibyte --prefix=/usr
-make && make install
-ls
-cd ..
-cd ..
-ls
-vim test.c 
-vim testpdb.py
-ls
-ls
-ls -al
-cd vim/
-ls
-ls -al
-cd ..
-ls
-rm -rf vim/
-ls
-rm *~
-ls
-rm testpdb.py
-ls
-rm testpdb.pyc 
-ls
-vi sevensegment.py 
-vim sevensegment.py 
-cat sevensegment.py 
-rm sevensegment.py 
-ls
-vi const.c 
-vim const.c 
-ls
-cd /Apps/Blade
-ls
-cd pyBlade/
-ls
-vi BD_ADDR.py
-vim BD_ADDR.py
-alias
-alias vi='vim'
-vi ~/.bashrc
-ls
-ls
-exit
-ls
-cd /Apps/Blade
-ls
-cd pyBlade/
-ls
-rm *~
-ls
-vi BD_ADDR.py 
-ls
-ls
-vi scramble.py 
-ls
-rm *~
+git rm --cached *
+ls'
 ls
 git status
-git diff
 ls
-vi scramble.py 
-vi scramble.py 
-vi ~/.vimrc
 ls
-vi scramble.py 
-vi ~/.vimrc
-vi scramble.py
-vi ~/.vimrc
-exit
-cd /Apps/Blade/pyBlade/
+git status
+ls -al
+rm .git
+rm .gitconfig
+git status
 ls
-vi scramble.py
-vi ~/.vimrc
+ls -al
+rm .git
+rm -rf .git
 ls
-vi scramble.py
-ls
-exit
-cd /Apps/Blade/pyBlade/
-ls
-vi scramble.py
-vi scramble.py
-ls
-rm *~
-ls
-man clear
-clearpy
-cleartemp
-vi ~/.bashrc
-exit
-ls
-vi test.c 
-ls
-cleartemp
+ls -al
+git init
+vi .gitignore
+git status
+vi .gitignore 
+git status
+vi .gitignore 
+git status
+git add .
+git status
+git commit -am 'cygwin .rc files'
+git remote add origin https://github.com/foresightyj/cygwin-rc-files.git
+gitpushall
+gitpushall
+gitpushall
+gitpushall
+gitpushall
 ls
 ls
 cd /Apps/Blade
 ls
-vi pyBlade/
+ls
+wget
+curl
+man curl
+curl www.google.com
+curl www.google.com 80
+curl www.google.com 80
+curl http://www.google.com
+curl http://www.nus.edu.sg
+ls
+curl www.google.com.sg
+ls
+curl www.google.com.sg
+curl www.google.com
+curl www.google.com.hk
+curl www.google.com.sg
+man curl
+ls
+git commit -am 'fixed some bugs'
+git config --list
+git config --global user.name "foresightyj"
+git config --global user.email imyuanjian@gmail.com
+git log -2
+gitpushall
 ls
 cd pyBlade/
 ls
-vi scramble.py 
+git commit -am 'fixed some bugs'
+gitpushall
+git status
 ls
-ls
-ls
-fg
-ls
-fg
-ssh -p 2222 foresightyj@localhost
-ls
-exit
-vi .vimrc
-rsync
-ls
-ls
-ls
-fg
-ssh -p 2222 foresightyj@localhost
-ls
-ls
-vi .vimrc
-ls
-rm stdout 
-ls
-vi hello.py
-vi .vimrc
-vi hello.py 
-ls
-vi .vimrc
-vi .vimrc
-ls
-cd /Downloads/
-ls
-rm mRemote*
-ls
-rm ligh*
-ls
-rm HxDSetupEN.zip 
-ls
-unzip nerdtree.zip 
-ls
-unzip Trinity-2.1.zip 
-rm *.zip
-ls
-cd plugin/
-ls
-mv * ~/.vim/autoload/
+git status
 cd ..
 ls
-vi Trinity/
-cd Trinity/
+cd /Dropbox/
 ls
-cd plugin/
-ls
-mv * ~/.vim/autoload/
-exit
-ls
-ls
-ls
-exit
-ls
-cd ~
-ls
-ls
-cd /Downloads/
-ls
-rm -rf plugin/
-rm -rf Trinity/
-ls
-rm -rf nerdtree_plugin/
-ls
-cd doc/
+cd My\ Python\ Scripts/
 ls
 cd ..
 ls
-rm doc/
-rm -rf doc/
-rm -rf syntax/
+cd Unix/
 ls
-vi ~/.bashrc
+cd BlackHole
+ls
+rmtemp
+ls
+ls
+vi blackhole.psproj 
+ls
+cd /Apps/Blade
+ls
+git status
+cd pyBlade/
+ls
+vi BladeHost.pyw 
 ls
 ls
 cd 
 ls
-ls
-ls
-rm a.exe 
-ls
-man ls
-vi backdoor.py
-ls
-cp backdoor.py /Desktop/
-rm backdoor.py 
-ls
-curl
+cd
 ls
 cd /Apps/Blade
 ls
+git commit -am 'Fixed a bug in copying bd_addr to blade_response'
+gitpushall
+ls
 git status
-ls
-rm .vimrc 
-ls
-ls
-git diff
-easy_install
-easy_install wxpython
-ls
-ls
+git status
+git status
 cd pyBlade/
 ls
-cleartemp
+vi scramble.py 
+cd /Desktop/
 ls
-vi BladeHost.pyw 
+vi scramble.c 
+mv scramble.c /Apps/Blade/pyBlade/
+echo /Apps/Blade/pyBlade/
+cd /Apps/Blade/pyBlade/
 ls
+vi scramble.c 
+gcc scramble.
+gcc scramble.c
+./a.exe 
+vi scramble.c
+gcc scramble.
+gcc scramble.c
+./a.exe 
+vi scramble.c
+vi scramble.c
+gcc scramble.c
+./a.exe 
+vi scramble.c
+cd ..
+ls
+git status
+git diff
+git log -5
+git diff 6415 HEAD -- scramble.c
+git log -2
+git log -4
+git diff 4c5d HEAD -- scramble.c
+git diff 4c5d HEAD -- scramble.c
+cd pyBlade/
+vi scramble.
+vi scramble.c
+gcc scramble.c
+./a.exe 
+vi scramble.c
+gcc scramble.c
+./a.exe 
+vi scramble.c
+gcc scramble.c
+./a.exe 
+vi scramble.c
+gcc -g scramble.c 
+ls
+gdb a.exe 
+ls
+ls
+ls
+rmtemp
+ls
+vi scramble.c 
+vi scramble.c 
 vi ~/.vimrc
+vi scramble.c
 ls
 ls
-cat ~/.vimrc
-vim ~/.vimrc
-vim ~/.vimrc
+cd ..
 ls
+mkdir testscramble
+ls
+cd testscramble/
+ls
+cat ../scramble.c
+less ../scramble.c
+vi types.h
+ls
+less ../scramble.c
+touch random.h
+less ../scramble.c
+touch blade.h
+ls
+vi test.c
+vi test.c 
+ls
+cd ..
+ls
+rm -rf testscramble/
+ls
+cd pyBlade/
+ls
+vi scramble.c
+vi scramble.py \
+vi scramble.py
+ls
+rmtemp
+ls
+cd /Test/
+ls
+vi union.c
 exit
+cd -
+ls
+cd /Test/
+ls
+vi union.c
+vi union.c
+ls
+cat temp.py
+vi test.py
+ls
+ls
+vi test.py
+rm test.py
+ls
+ls
+ls
+ls
 cd /Apps/Blade
 ls
-cd pyBlade/
-ls
 git status
 git diff
+git reset --hard HEADF
+git reset --hard HEAD
 ls
-cleartemp
-ls
-git status
-cd .ropeproject/
-ls
-cd ..
-ls
-ls
-rm -rf .ropeproject/
-ls
-git status
-git log -2
-git commit -am 'Added Backdoor Server'
-git push -u origin master
-ls
-vi ~/.bashrc
-exit
-vi ~/.bashrc
-exit
-ls
-cd /Apps/Blade
-ls
-cd pyBlade/
-ls
-gitpushall
-ls
-cd ..
-ls
-git diff
-git status
-cd pyBlade/
-ls
-git status
-git add backdoorclient.py 
-git commit -am 'added backdoorclient.py'
-gitpushall
-cd ..
-ls
-git diff
-git log -2
-git status
-git add scramble.c scramble.h 
-git status
-git commit -am 'forgot to add scramble.c and scramble.h in prev commit'
-gitpushall
-ls
-ls
-git branch
-ls
-cd pyBlade/
-l;s
-ls
-git diff
-git commit -am 'message period = 0.1s can occassionally cause packet miss, but 0.2s seems fine'
-git status
-git commit --ammend -m 'message period = 0.1s can occassionally cause packet miss, but 0.2s seems fine while observer listens 100% of time'
-git commit --amend -m 'message period = 0.1s can occassionally cause packet miss, but 0.2s seems fine while observer listens 100% of time'
-git log
-gitpushall
 python
 ls
-cd .
+cd pyBlade/
+ls
+./BD_ADDR.py 59 FA 8E CF 8B 33 3E
+git status
+rm a.exe 
+ls
+git status
+git add scramble.
+git add scramble.c
+ls
+git status
+ls -al scramble.c 
+git statuws
+git status
+git commit -am 'just save'
 cd ..
 ls
+git status
 git diff
-git commit -am 'disabled some unimportant services like change device name and get rssi values to save ROM space'
+git log 02
+git log 02
+git log -2
+git commit -am 'fixed scrambling bug and make it easier to read too'
+git status
+git status
 gitpushall
-man set
-vi ~/.bashrc
-exit
-ls
-vi ~/.bashrc
-PYTHONSTARTUP
-echo $PYTHONSTARTUP
-vi `echo $PYTHONSTARTUP`
-ls
-vi ~/.bashrc
-ls
-exit
+cd pyBlade/
+gitpushall
 ls
 ls
 ls
+cd ..
 ls
+git commit -am 'forgot to copy bd_addr for the cases without encryption'
+gitpushall
+ls
+ls
+git diff
+ls
+ls
+git diff
+ls
+git status
+git add Blade\ Host\ Controller\ Interface\ v0.4\ 2013-04-24.docx 
+git add Broadcaster_Observer\ Documentation\ v0.1\ 2013-04-24.docx 
+git status
+git add -u
+git status
+git commit -am 'Added Broadcaster Observer doc'
+gitpushall
+ls
+git log 
+git status
+git commit -am 'changed public key to real random value'
+gitpushall
+cd ../alcohol/
+ls
+git status
+git diff
+git log -2
+git branch
+git log -2
+git log -5
+ls
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc '
+vi ~/.vimrc 
+ls
+vi ~/.vimrc
+cd ~/.vim/
+ls
+cd autoload/
+ls
+wget http://vim.sourceforge.net/scripts/download_script.php?src_id=3640
+ls
+cat download_script.php\@src_id\=3640
+ls
+rm download_script.php\@src_id\=3640 
+ls
+mv /Downloads/minibufexpl.vim .
+ls
+cd 
+ls
+vi coroutine.c 
+cd ~/.vim
+ls
+cd autoload/
+ls
+cd ../bundle/
+ls
+cd python-mode/
+ls
+cd ..
+ls
+git clone https://github.com/scrooloose/nerdtree.git
+cd
+ls
+vim coroutine.c 
+cd ~/.vim
+ls
+cd bundle/
+ls
+cd nerdtree/
+ls
+vi README.markdown 
+cd ..
+ls
+cd ..
+ls
+cd autoload/
+ls
+cd
+ls
+ls
+rm :q
 ls
 vi const.c 
 ls
-vi hello.
-ls
-vi hello.py
+rmtemp
 ls
 ls
+vi const.c 
+:q
+quit
+exit
+vi ~/.vimrc
+man vim
 ls
+vi const.c 
+vi stringpointer.c 
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
 ls
-rxvt
-ls
-uname
-cd /Downloads/
-ls
-cd rxvt-unicode-9.18-2-x86_64.pkg.tar
-ls
-cd rxvt-unicode-9.18-2-x86_64.pkg
-ls
-cd usr/
-ls
-find . -name configure
-cd ..
-find . -name configure
-cd ..
-ls
-find . -name configur
-find . -name configure
-cd -
-ls
-cd usr/
-ls
-cd bin/
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+ls -al
+rm 
 ls
 ls -al
-cat urxvt
-ls
-./urxvt
-./urxvtc
+rm *.swp
 ls
 ls -al
-cd ..
+rm .*.swp
 ls
-cd ..
+ls -al
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
+vi ~/.vimrc
 ls
-cd ..
+cd /Apps/Blade
 ls
-mv rxvt-unicode-9.18-2-x86_64.pkg /Downloads/
+git status
 ls
-cd ..
-ls
-rm *.xz
-rm *.gz
-ls
-rm Unix\ Shells\ by\ Example\,\ 3rd\ Edition\ -\ Prentice\ Hall.pdf 
-ls
-rm nerdtree/
-rm -rf nerdtree/
-ls
-rm *tar
-rm -rf *tar
-ls
-mv rxvt-unicode-9.18-2-x86_64.pkg/ rxvt
-ls
-cd rxvt/
-ls
-cd usr/
-ls
-cd bin/
-ls
-ls
-ls
-ls
-ls
-cd /Downloads/
-ls
-rm -rf rxvt
-ls
-rm Prentice.Hall-Unix.Shells.By.Example,4th.Edition.chm 
-ls
-rm Trinity-2.1/
-rm -rf Trinity-2.1/
-ls
-tar xzvf rxvt-2.7.10.tar.gz 
-ls
-rm *.gz
-ls
-cd rxvt-2.7.10/
-ls
-cat README.configure 
-cat README.configure 
-;s
-ls
-ls
-cat INSTALL 
-./configure
-cat INSTALL 
-ls
-cd ..
+vim *.c
+man vim
+vi *.c
+vi -p *.c
+alias vi
+vi ~/.bashrc
+vi *.c
+alias vi
+vi ~/.bashrc
 exit
 ls
+cd /Apps/Blade
 ls
+vi *.c
+ls *.c
+ls -l *c | wc -l
+vi *.
+ls -l *c
+vi *.c
+man vim
+vi *.c
+vi *
+vi *.c
+vim -p13 *.c
+vi *.c
 ls
-cleartemp
+vi ~/.vimrc
+vi *.c
+git status
+git diff
+git commit -am 'Formated all files with astyle in vim'
+git status
+rm *.orig
 ls
-rm ~/.bashrc
+git status
+git diff
+git status
 ls
+ls *.c
+ls *.h
+vi *.h
+vi ~/.vimrc
+vi *.h
+git status
+rm *.orig
 ls
-cd /
-find . -name .bashrc
+git status
+git commit -am 'run astyle over .h files'
+git status
+git log -3
+git diff d610 HEAD
 ls
+git status
+git log -2
+git log -3
+git reset --hard d610
+git status
 ls
-vi .bashrc
-vim .bashrc
+git *.[ch]
+git *.{ch}
+vi *.{ch}
+vi *.[ch]
+ls
+git diff
+man git diff
+git help diff
+git diff --color
+man asytle
+man astyle
+man astle
+man astyle
+ls
+git diff
+git diff --color
+vi ~/.bashrc
+ls
+ls -A
+man ls
+ls -CFlh
+fortune
+vi ~/.bashrc
+ls
+exit
+ll
+ll
+la
+alias
+diskspace
+vi ~/.bashrc
+exit
+ls
+alias
+diskspace
+alias
+folders
+ls
+cd /Dropbox/
+folders
+vi ~/.bashrc
+exit
+ls
+cd /Dropbox/
+ls
+folders
+ls
+alias
+man xargs
+vi ~/.bashrc
 ls
 exit

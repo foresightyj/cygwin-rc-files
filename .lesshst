@@ -1,4 +1,10 @@
 .less-history-file:
 .search
 "color
+"-R
+"-p
+"diff
+"color
+"-A
+"-0
 .shell
