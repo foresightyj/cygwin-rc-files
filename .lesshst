@@ -7,4 +7,9 @@
 "color
 "-A
 "-0
+"-p
+"buffer
+"buf
+"tab
+"\<tab
 .shell

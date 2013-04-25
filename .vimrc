@@ -9,7 +9,7 @@ set smartindent
 set incsearch
 color desert
 set cursorline
-hi CursorLine term=bold cterm=bold guibg=Grey40
+highlight CursorLine term=bold cterm=bold guibg=Grey40
 
 filetype off
 
@@ -21,17 +21,21 @@ filetype plugin indent on
 
 let mapleader = ","
 
+" disable dup checks will significantly speed up vim
+let g:miniBufExplCheckDupeBufs = 0
+map <Leader>m :MiniBufExplorer<cr>
 
 set number
 set hlsearch
 
+let g:NERDTreeWinPos = "left"
 nnoremap <silent> <F12> :NERDTreeToggle<CR>
 
 noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
-noremap <C-o> <C-w>o
+noremap <leader>o <C-w>o
 
 " Status line
 set laststatus=2
@@ -49,11 +53,11 @@ set ruler
 " Display incomplete commands.
 set showcmd
 
-nnoremap <F4> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
-inoremap <F4> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
+" nnoremap <F4> a<C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR><Esc>
+" inoremap <F4> <C-R>=strftime("%Y-%m-%d %a %I:%M %p")<CR>
 
 " To save, press ctrl-s.
-inoremap <c-s> <Esc>:Update<CR>
+inoremap <C-s> <esc>:w<cr>
 
 "use jk as <esc> in insert mode
 inoremap jk <esc>
@@ -62,16 +66,19 @@ inoremap jk <esc>
 noremap <Up> <c-w>k
 noremap <Down> <c-w>j
 
-au BufAdd,BufNewFile * nested tab sball
+" autocmd BufAdd,BufNewFile * nested tab sball
 
 " right arrow key to switch between tabs
-noremap <Right> :tabn<cr>
-noremap <Left> :tabp<cr>
+noremap <Right> :bn<cr>
+noremap <Left> :bp<cr>
+
+noremap <leader>d :bd<cr>
+noremap <leader>w :w<cr>
 
 " make tabs more obvious
-hi TabLineFill ctermfg=Black ctermbg=Black
-hi TabLine ctermfg=Black ctermbg=White
-hi TabLineSel ctermfg=White ctermbg=DarkGreen
+highlight TabLineFill ctermfg=Black ctermbg=Black
+highlight TabLine ctermfg=Black ctermbg=White
+highlight TabLineSel ctermfg=White ctermbg=DarkGreen
 
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
@@ -79,13 +86,12 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
 nnoremap <leader>' viw<esc>a'<esc>hbi'<esc>lel
 
-nnoremap <leader>o o<esc>k
-nnoremap <leader>O O<esc>j
-
 nnoremap <leader>as :%!astyle<cr>
 
 autocmd FileType c map <F7> :!gcc GoGo%:p:r.out" "%:p" && "%:p:r.out"<CR>
-autocmd BufNewFile,BufRead,BufWritePost *.c execute '!astyle %'
-autocmd BufNewFile,BufRead,BufWritePost *.h execute '!astyle %'
+" autocmd BufNewFile,BufRead,BufWritePost *.c execute '!astyle %'
+" autocmd BufNewFile,BufRead,BufWritePost *.h execute '!astyle %'
+autocmd BufWritePre *.{c,h} :normal gg=G
 
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 

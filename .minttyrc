@@ -4,4 +4,4 @@ CursorType=block
 Font=Lucida Console
 FontHeight=10
 OpaqueWhenFocused=yes
-Term=xterm
+Term=xterm-256color

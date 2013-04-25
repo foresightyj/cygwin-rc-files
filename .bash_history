@@ -1,370 +1,3 @@
-git rm --cached *
-ls'
-ls
-git status
-ls
-ls
-git status
-ls -al
-rm .git
-rm .gitconfig
-git status
-ls
-ls -al
-rm .git
-rm -rf .git
-ls
-ls -al
-git init
-vi .gitignore
-git status
-vi .gitignore 
-git status
-vi .gitignore 
-git status
-git add .
-git status
-git commit -am 'cygwin .rc files'
-git remote add origin https://github.com/foresightyj/cygwin-rc-files.git
-gitpushall
-gitpushall
-gitpushall
-gitpushall
-gitpushall
-ls
-ls
-cd /Apps/Blade
-ls
-ls
-wget
-curl
-man curl
-curl www.google.com
-curl www.google.com 80
-curl www.google.com 80
-curl http://www.google.com
-curl http://www.nus.edu.sg
-ls
-curl www.google.com.sg
-ls
-curl www.google.com.sg
-curl www.google.com
-curl www.google.com.hk
-curl www.google.com.sg
-man curl
-ls
-git commit -am 'fixed some bugs'
-git config --list
-git config --global user.name "foresightyj"
-git config --global user.email imyuanjian@gmail.com
-git log -2
-gitpushall
-ls
-cd pyBlade/
-ls
-git commit -am 'fixed some bugs'
-gitpushall
-git status
-ls
-git status
-cd ..
-ls
-cd /Dropbox/
-ls
-cd My\ Python\ Scripts/
-ls
-cd ..
-ls
-cd Unix/
-ls
-cd BlackHole
-ls
-rmtemp
-ls
-ls
-vi blackhole.psproj 
-ls
-cd /Apps/Blade
-ls
-git status
-cd pyBlade/
-ls
-vi BladeHost.pyw 
-ls
-ls
-cd 
-ls
-cd
-ls
-cd /Apps/Blade
-ls
-git commit -am 'Fixed a bug in copying bd_addr to blade_response'
-gitpushall
-ls
-git status
-git status
-git status
-cd pyBlade/
-ls
-vi scramble.py 
-cd /Desktop/
-ls
-vi scramble.c 
-mv scramble.c /Apps/Blade/pyBlade/
-echo /Apps/Blade/pyBlade/
-cd /Apps/Blade/pyBlade/
-ls
-vi scramble.c 
-gcc scramble.
-gcc scramble.c
-./a.exe 
-vi scramble.c
-gcc scramble.
-gcc scramble.c
-./a.exe 
-vi scramble.c
-vi scramble.c
-gcc scramble.c
-./a.exe 
-vi scramble.c
-cd ..
-ls
-git status
-git diff
-git log -5
-git diff 6415 HEAD -- scramble.c
-git log -2
-git log -4
-git diff 4c5d HEAD -- scramble.c
-git diff 4c5d HEAD -- scramble.c
-cd pyBlade/
-vi scramble.
-vi scramble.c
-gcc scramble.c
-./a.exe 
-vi scramble.c
-gcc scramble.c
-./a.exe 
-vi scramble.c
-gcc scramble.c
-./a.exe 
-vi scramble.c
-gcc -g scramble.c 
-ls
-gdb a.exe 
-ls
-ls
-ls
-rmtemp
-ls
-vi scramble.c 
-vi scramble.c 
-vi ~/.vimrc
-vi scramble.c
-ls
-ls
-cd ..
-ls
-mkdir testscramble
-ls
-cd testscramble/
-ls
-cat ../scramble.c
-less ../scramble.c
-vi types.h
-ls
-less ../scramble.c
-touch random.h
-less ../scramble.c
-touch blade.h
-ls
-vi test.c
-vi test.c 
-ls
-cd ..
-ls
-rm -rf testscramble/
-ls
-cd pyBlade/
-ls
-vi scramble.c
-vi scramble.py \
-vi scramble.py
-ls
-rmtemp
-ls
-cd /Test/
-ls
-vi union.c
-exit
-cd -
-ls
-cd /Test/
-ls
-vi union.c
-vi union.c
-ls
-cat temp.py
-vi test.py
-ls
-ls
-vi test.py
-rm test.py
-ls
-ls
-ls
-ls
-cd /Apps/Blade
-ls
-git status
-git diff
-git reset --hard HEADF
-git reset --hard HEAD
-ls
-python
-ls
-cd pyBlade/
-ls
-./BD_ADDR.py 59 FA 8E CF 8B 33 3E
-git status
-rm a.exe 
-ls
-git status
-git add scramble.
-git add scramble.c
-ls
-git status
-ls -al scramble.c 
-git statuws
-git status
-git commit -am 'just save'
-cd ..
-ls
-git status
-git diff
-git log 02
-git log 02
-git log -2
-git commit -am 'fixed scrambling bug and make it easier to read too'
-git status
-git status
-gitpushall
-cd pyBlade/
-gitpushall
-ls
-ls
-ls
-cd ..
-ls
-git commit -am 'forgot to copy bd_addr for the cases without encryption'
-gitpushall
-ls
-ls
-git diff
-ls
-ls
-git diff
-ls
-git status
-git add Blade\ Host\ Controller\ Interface\ v0.4\ 2013-04-24.docx 
-git add Broadcaster_Observer\ Documentation\ v0.1\ 2013-04-24.docx 
-git status
-git add -u
-git status
-git commit -am 'Added Broadcaster Observer doc'
-gitpushall
-ls
-git log 
-git status
-git commit -am 'changed public key to real random value'
-gitpushall
-cd ../alcohol/
-ls
-git status
-git diff
-git log -2
-git branch
-git log -2
-git log -5
-ls
-vi ~/.vimrc
-vi ~/.vimrc
-vi ~/.vimrc '
-vi ~/.vimrc 
-ls
-vi ~/.vimrc
-cd ~/.vim/
-ls
-cd autoload/
-ls
-wget http://vim.sourceforge.net/scripts/download_script.php?src_id=3640
-ls
-cat download_script.php\@src_id\=3640
-ls
-rm download_script.php\@src_id\=3640 
-ls
-mv /Downloads/minibufexpl.vim .
-ls
-cd 
-ls
-vi coroutine.c 
-cd ~/.vim
-ls
-cd autoload/
-ls
-cd ../bundle/
-ls
-cd python-mode/
-ls
-cd ..
-ls
-git clone https://github.com/scrooloose/nerdtree.git
-cd
-ls
-vim coroutine.c 
-cd ~/.vim
-ls
-cd bundle/
-ls
-cd nerdtree/
-ls
-vi README.markdown 
-cd ..
-ls
-cd ..
-ls
-cd autoload/
-ls
-cd
-ls
-ls
-rm :q
-ls
-vi const.c 
-ls
-rmtemp
-ls
-ls
-vi const.c 
-:q
-quit
-exit
-vi ~/.vimrc
-man vim
-ls
-vi const.c 
-vi stringpointer.c 
-vi ~/.vimrc
-vi ~/.vimrc
-vi ~/.vimrc
-ls
-vi ~/.vimrc
-vi ~/.vimrc
-vi ~/.vimrc
-vi ~/.vimrc
-ls -al
-rm 
-ls
 ls -al
 rm *.swp
 ls
@@ -497,4 +130,371 @@ alias
 man xargs
 vi ~/.bashrc
 ls
+exit
+ls
+cd /Dropbox/
+ls
+alias
+folders
+ls
+folders
+find . -maxdepth 1 -type d -print0
+find . -maxdepth 1 -type d -print0
+ls -al
+find . -maxdepth 1 -type d -print0 | xargs -0 echo
+find . -maxdepth 1 -type d -print0 | xargs -0
+find . -maxdepth 1 -type d -print0 | xargs -0 -I{} echo {}\n
+find . -maxdepth 1 -type d -print0 | xargs -0 -I{} echo {}"\n"
+find . -maxdepth 1 -type d -print0 | xargs -0 -I{} echo {} . "\n"
+find . -maxdepth 1 -type d -print0 | xargs -0 -I{} echo {}
+alias
+find . -maxdepth 1 -type d -print0 | xargs -0 du -sk | sort -rn
+find . -maxdepth 1 -type d -print0 | xargs -0 -I{} du -sk {} | sort -rn
+find . -maxdepth 1 -type d -print0 | xargs -0 -I{} du -sk {} | sort -nr
+vi ~/.bashrc
+git config --global color.diff true
+ls
+cd /Apps/Blade
+ls
+git diff
+git log -h
+cd 
+ls
+vi .gitconfig 
+git config --global color.diff false
+vi .gitconfig
+ls
+git config --global core.editor vi
+vi .gitconfig
+ls
+git config --global color.ui true
+vi .gitconfig
+ls
+git status
+git add .NERDTreeBookmarks .gitconfig
+git commit -am 'added some more'
+ls
+gitpushall
+gitpushall
+ls
+cd /Apps/Blade
+ls
+vi *.c
+ls
+vi *.c
+vi *.c
+vi *.c
+vi *.c
+vi *.c
+vi ~/.vimrc
+vi *.c
+vi ~/.vimrc
+vi *.c
+vi ~/.vimrc
+ls
+vi ~/.vimrc
+ls
+ls *.{c,h}
+vi ~/.vimrc
+ls
+vi *.{c,h}
+vi *.{c,h}
+git diff
+ls
+git log -3
+git reset --hard d610
+vi *.{c,h}
+ls
+rm *.orig
+ls
+git diff
+git diff
+ls
+rmtemp
+ls
+git status
+vi *.{c,h}
+ls
+git diff
+git diff
+vi scramble.c
+ls
+git diff
+git diff
+vi *.{c,h}
+vi *.{c,h}
+ls
+git diff
+git status
+git reset --hard d610
+git status
+git diff
+ls *.{c,h}
+vi *.{c,h}
+git status
+git diff
+git diff
+git diff
+git diff
+vi *.{c,h}
+ls
+git diff
+ls
+git status
+git diff
+vi *.{c,h}
+ls
+vi ~/.inputrc
+cd /Dropbox/
+ls
+cd E
+cd Ebooks/
+ls
+ls
+ls
+cd 
+ls
+ls
+vi .vimrc
+vi .vimrc
+vi .vimrc
+vi .vim
+vi .vimrc
+ls
+cd /Apps/Blade
+ls
+vi *.[ch]
+ls
+rm .*.swp
+ls
+vi *.{c,h}
+git diff
+git status
+git reset --hard d610
+vi *.{c,h}
+git diff
+vi *.{c,h}
+git status
+vi *.{c,h}
+ls
+git status
+ls
+git diff
+rmtemp
+ls
+ll
+ll
+ls
+git status
+vi *.{c,h}
+vi *.{c,h}
+ls
+vi *.{c,h}
+cd ~/.vim/
+ls
+cd bundle/
+ls
+cd ..
+ls
+git clone https://github.com/fholgado/minibufexpl.vim.git
+ls
+ls
+cd minibufexpl.vim/
+ls
+cd
+vi hello.c
+vi hello.py 
+ls
+exit
+ls
+vi hello.py
+cd 
+cd .vim
+ls
+cd bundle/
+ls
+cd ..
+ls
+cd bundle
+ls
+cd nerdtree/
+ls
+cd ..
+ls
+ls
+cd ..
+ls
+mv minibufexpl.vim/ bundle/
+ls
+cd bundle/
+ls
+cd
+vi hello.py
+vi hello.py
+vi hello.py
+cd /Apps/Blade
+vi ~/.bashrc
+exit
+vi ~/.bashrc
+exit
+cd /Apps/Blade
+openhc
+man vim
+vim *.c
+vi ~/.bashrc
+ls
+exit
+vi ~/.vimrc
+cd /Apps/Blade
+openhc
+ls *.{c,h} -l |wc -l
+openhc
+ls *.{c,h}
+openhc
+vi ~/.bashrc
+ls
+exit
+ls
+cd /Apps/Blade
+ls
+vimhc
+alias vimhc
+vi ~/.bashrc
+exit
+cd /Apps/Blade
+ls
+vimhc
+vimhc
+vimhc
+vimhc
+ls
+vi ~/.vimrc
+vi ~/.vimrc
+ls
+vi ~/.vimrc
+ls
+exit
+ls
+rmtemp
+ls
+cd /Apps/Blade
+ls
+rmtemp
+ls
+git status
+git diff
+rm .battery_service.c.swp 
+ls
+git diff
+git status
+vimhc
+git diff
+git reset --hard d610
+git diff
+vimhc
+git diff
+git diff
+git diff
+vimhc
+git diff
+vimhc
+git diff
+vim ~/.vimrc
+ls
+vimhc
+ls
+vimhc
+exit
+cd /Apps/Blade
+ls
+git status
+git diff
+vi ~/.vimrc
+ls
+git diff
+git reset --hard d610
+ls
+git status
+ls
+cd /Apps/Blade/pyBlade/
+git diff
+ls
+git status
+git commit -am 'Corrected the wrong default changeadvert command'
+gitpushall
+ls
+cd ..
+ls
+git status
+git diff
+git commit -am 'if host MCU sends out wrong BD_ADDR in initconnect command, the hostinitconn must also be set to false'
+git log -2
+gitpushall
+ls
+ls
+ls
+ls
+cd pyBlade/
+ls
+vi backdoorclient.py 
+cd /Apps/Blade/pyBlade/
+ls
+vi backdoorclient.py 
+ls
+rm .*.swp
+ls
+ls
+rmtemp
+ls
+vi ~/.bashrc
+exit
+ls
+ls
+exit
+ls
+exit
+exit
+which
+ls
+uname
+exit
+ls
+exit
+man screen
+screen
+ls
+man screen
+screen ls
+screen ls
+screen
+ls
+screen
+ls
+screen
+ls
+ls
+ls
+cd /Apps/Blade
+cd pyBlade/
+ls
+vi backdoorclient.py 
+exit
+cd /Apps/Blade/pyBlade/
+ls
+vi backdoorclient.py
+vi ~/.vimrc
+cd /Apps/Blade/pyBlade/
+ls
+vi backdoorclient.py
+ls
+rmswp
+vi backdoorclient.py
+cd /Apps/Blade/pyBlade/
+ls
+vi backdoorclient.py
+vi backdoorclient.py
+cd /Apps/Blade/pyBlade/
+ls
+vi backdoorclient.py
+ps
 exit
