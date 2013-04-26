@@ -1,13 +1,18 @@
 " Use Vim settings, rather then Vi settings (much better!).
 set nocompatible
+set background=dark
 
-syntax on
 set showmode
 set visualbell
-"set autoindent
-set smartindent
+set autoindent
 set incsearch
-color desert
+
+if has("gui_running")
+	colorscheme desert
+else
+	colorscheme darkblue
+endif
+
 set cursorline
 highlight CursorLine term=bold cterm=bold guibg=Grey40
 
@@ -18,6 +23,7 @@ call pathogen#helptags()
 
 " execute pathogen#infect()
 filetype plugin indent on
+syntax on
 
 let mapleader = ","
 
@@ -31,6 +37,9 @@ set hlsearch
 let g:NERDTreeWinPos = "left"
 nnoremap <silent> <F12> :NERDTreeToggle<CR>
 
+set winminheight=0      " Allow windows to get fully squashed
+
+" Switch between windows, maximizing the current window
 noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
@@ -96,3 +105,14 @@ autocmd BufWritePre *.{c,h} :normal gg=G
 
 autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 
+
+let maplocalleader = "\\"
+
+autocmd FileType javascript nnoremap <buffer> <localleader>c I//<esc>
+autocmd FileType python     nnoremap <buffer> <localleader>c I#<esc>
+
+" automatically insert the Python header to a newly created Python file
+au BufEnter *.py if getline(1) == "" | call pythonHeader#PythonHeader() | endif
+au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+
+au BufEnter .vimrc call rmLeadingColon#RmLeadingColon()
