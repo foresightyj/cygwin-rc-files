@@ -6,3 +6,9 @@
 	ui = true
 [core]
 	editor = vi
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
