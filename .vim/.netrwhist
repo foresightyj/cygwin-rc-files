@@ -1,7 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =6
 let g:netrw_dirhist_1='/Apps/Blade/pyBlade'
 let g:netrw_dirhist_2='/Downloads/Trinity'
 let g:netrw_dirhist_3='/home/yuanjian'
 let g:netrw_dirhist_4='/home/yuanjian/.vim'
 let g:netrw_dirhist_5='/home/yuanjian/pip'
+let g:netrw_dirhist_6='/home/yuanjian/.vim/autoload'

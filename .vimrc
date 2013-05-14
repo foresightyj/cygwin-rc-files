@@ -108,11 +108,19 @@ autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4
 
 let maplocalleader = "\\"
 
-autocmd FileType javascript nnoremap <buffer> <localleader>c I//<esc>
+autocmd FileType c nnoremap <buffer> <localleader>c I//<esc>
 autocmd FileType python     nnoremap <buffer> <localleader>c I#<esc>
 
 " automatically insert the Python header to a newly created Python file
 au BufEnter *.py if getline(1) == "" | call pythonHeader#PythonHeader() | endif
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
-au BufEnter .vimrc call rmLeadingColon#RmLeadingColon()
+" au BufEnter .vimrc call rmLeadingColon#RmLeadingColon()
+
+vnoremap <f5> :!python<CR>
+
+" conque shortcuts
+noremap <leader>s :ConqueTermVSplit bash<cr>
+noremap <leader>p :ConqueTermVSplit python<cr>
+noremap <leader>i :ConqueTermVSplit ipython<cr>
+

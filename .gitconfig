@@ -5,7 +5,7 @@
 	diff = true 
 	ui = true
 [core]
-	editor = vi
+	editor = vim
 [diff]
 	tool = vimdiff
 [merge]

@@ -21,4 +21,4 @@ alias vimhc='vim *.{c,h}'
 alias gitrmdeleted='git ls-files -z --deleted | xargs -I{} --null git rm {}'
 
 
-
+alias stripccomments='mkdir -p stripped && ls *c *h | xargs -I{} gcc -fpreprocessed -dD -E {} > ./stripped/{}'
